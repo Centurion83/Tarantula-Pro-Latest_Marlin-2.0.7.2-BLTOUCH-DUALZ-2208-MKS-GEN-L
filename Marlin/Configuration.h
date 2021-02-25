@@ -1322,8 +1322,8 @@
 */
 //#define AUTO_BED_LEVELING_3POINT
 //#define AUTO_BED_LEVELING_LINEAR
-//#define AUTO_BED_LEVELING_BILINEAR
-#define AUTO_BED_LEVELING_UBL
+#define AUTO_BED_LEVELING_BILINEAR
+//#define AUTO_BED_LEVELING_UBL
 //#define MESH_BED_LEVELING
 
 /**
@@ -1337,7 +1337,7 @@
 /**
    Auto-leveling needs preheating
 */
-#define PREHEAT_BEFORE_LEVELING
+//#define PREHEAT_BEFORE_LEVELING
 #if ENABLED(PREHEAT_BEFORE_LEVELING)
 #define LEVELING_NOZZLE_TEMP 120   // (°C) Only applies to E0 at this time
 #define LEVELING_BED_TEMP     50
@@ -1368,7 +1368,7 @@
 /**
    Enable the G26 Mesh Validation Pattern tool.
 */
-#define G26_MESH_VALIDATION
+//#define G26_MESH_VALIDATION
 #if ENABLED(G26_MESH_VALIDATION)
 #define MESH_TEST_NOZZLE_SIZE    0.4  // (mm) Diameter of primary nozzle.
 #define MESH_TEST_LAYER_HEIGHT   0.2  // (mm) Default layer height for G26.
